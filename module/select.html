@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery.ymjs.select</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<style>
+		.ymjs-select{
+			background-color: #ececec;
+			width:180px;
+			height: 30px;
+			line-height: 30px;
+			cursor: pointer;
+			border:1px solid #ccc;
+			font-size:14px;
+			position: relative;
+			padding:0px 5px;
+		}
+		.ymjs-up{
+			font-size:12px;
+			width: 0;
+		    height: 0;
+		    border-left: 8px solid transparent;
+		    border-right: 8px solid transparent;
+		    border-top: 11px solid #555;
+			position: absolute;
+			right: 6px;
+			bottom: 9px;
+		}
+		.ymjs-select-options ul{
+			border: 1px solid #ececec;
+			width:180px;
+			position: absolute;
+			left: 100px;
+		}
+		.ymjs-select-options ul li{
+			border-bottom:1px dotted #ccc;
+			height: 30px;
+			line-height: 30px;
+			padding:1px 5px;
+		}
+		.ymjs-select-options ul li:last{
+			border:0px;
+		}
+	</style>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+	<select name="" id="">
+		<option value="1">12345</option>
+		<option value="2">67890</option>
+		<option value="3">00000</option>
+	</select>
+	<div class="ymjs-select" style="left:100px">
+		<span>请选择</span>
+		<i class="ymjs-up"></i>
+	</div>
+	<div class="ymjs-select-options">
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "ymjs",
+  "version": "1.0.0",
+  "description": "YMJavaScript for jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvkens/ymjs.git"
+  },
+  "keywords": [
+    "ymjs",
+    "for",
+    "jquery"
+  ],
+  "author": "Kvkens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvkens/ymjs/issues"
+  },
+  "homepage": "https://github.com/kvkens/ymjs#readme",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  }
+}
