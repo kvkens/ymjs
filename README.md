@@ -1,0 +1,2 @@
+# ymjs
+YMJavaScript for jQuery
