@@ -1,27 +1,21 @@
 {
   "name": "ymjs",
-  "version": "1.0.0",
-  "description": "YMJavaScript",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kvkens/ymjs.git"
-  },
-  "keywords": [
-    "ymjs",
-    "for",
-    "jquery"
-  ],
-  "author": "Kvkens",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kvkens/ymjs/issues"
-  },
-  "homepage": "https://github.com/kvkens/ymjs#readme",
+  "version": "0.0.1",
+  "description": "react component",
   "dependencies": {
-    "http-server": "^0.8.0"
+    "bootstrap": "^3.3.7",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "license": "MIT",
+  "author": "kvkens@qq.com",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
